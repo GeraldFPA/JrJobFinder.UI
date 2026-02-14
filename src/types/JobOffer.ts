@@ -7,5 +7,6 @@ export interface JobOffer {
     location?: string;
     isRemote: boolean;
     source?: string;
+    sourceUrl?: string;
     postedDate: Date;
 }
